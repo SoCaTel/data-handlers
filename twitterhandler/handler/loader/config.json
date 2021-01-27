@@ -1,0 +1,16 @@
+{
+    "redis_configuration_connetion": {
+        "host": "socatel-redis",
+        "port": 6379,
+	"password": "default_soca_redis"
+    },
+    "redis_twitter_services_feed_list": "twitter_feed_services",
+    "redis_twitter_services_replies_list": "twitter_replies_services",
+    "elasticsearch_configuration_connection": {
+        "node": "http://<elastic_user>:<elastic_password>@<elastic_host>:9200"
+    },
+    "elasticsearch_ioi": [
+        "so_organisation_handlers",
+        "so_service_handlers"
+    ]
+}

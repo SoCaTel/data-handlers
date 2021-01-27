@@ -1,0 +1,5 @@
+# Ignore raven db topology files
+topology_files/
+
+# Ignore any generated log files
+*.log

@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+  socatel-redis:
+    image: redis:latest
+    container_name: socatel-redis
+    command: redis-server --requirepass default_soca_redis
+    volumes:
+    - 'socatel-redis-volume:/data'
+    restart: on-failure
+    environment:
+    - DISABLE_COMMANDS=FLUSHDB, FLUSHALL, CONFIG
+    ports:
+    - 127.0.0.1:6379:6379
+volumes:
+  socatel-redis-volume:
+    driver: local    
+networks:
+  default:
+    external:
+      name: socatel-network

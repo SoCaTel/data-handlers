@@ -1,0 +1,30 @@
+{
+  "name": "re-index-elasticsearch",
+  "version": "1.0.0",
+  "description": "SoCaTel Feed Everything to the Semantic-pre-processing layer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CyRIC | Cyprus Research and Innovation Centre Ltd <info@cyric.eu> (https://www.cyric.eu/)",
+  "contributors": [
+    {
+      "name" : "Aristotelis Charalampous",
+      "email" : "a.charalampous@cyric.eu",
+      "url": "https://www.linkedin.com/in/aristotelischaralampous/"
+    },
+    {
+      "name" : "Rafael Constantinou",
+      "url" : "https://www.linkedin.com/in/rafaelconstantinou"
+    }
+  ],
+  "license": "Apache-2.0",
+  "funding": "https://www.socatel.eu/",
+  "dependencies": {
+    "elasticsearch": "^16.4.0",
+    "form-data": "^2.5.1",
+    "http": "0.0.0",
+    "query-string": "^6.8.3",
+    "request": "^2.88.0"
+  }
+}
