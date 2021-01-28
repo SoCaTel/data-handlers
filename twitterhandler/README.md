@@ -13,7 +13,7 @@ and Facebook accounts. The access tokens with the associated screen names (uniqu
 then used for data retrieval. The retrieved data are then stored within the KB2.1 – Raw Data Repository.
 
 **All tweets are also being semantically annotated by the Semantic Pre-processing Layer. This is accomplished using the 
-LinkedPipes docker container provided by EVERIS**
+LinkedPipes docker container provided by EVERIS [here](https://github.com/SoCaTel/semantic-preprocessing-pipelines).**
 
 ## Getting Started
 ### Prerequisites
@@ -29,7 +29,8 @@ provides all the necessary material to build the basic infrastructural component
 
 ### **Pre-checks**
 
-First thing to confirm is that the RedisCache and the LinkedPipes are up and running. Do so using the following command
+First thing to confirm is that the RedisCache and the LinkedPipes are up and running, available 
+[here](https://github.com/SoCaTel/semantic-preprocessing-pipelines). Do so using the following command
 
 ```
 $ docker container ls
